@@ -1,6 +1,5 @@
-# Secure File Transfer - Gunicorn Setup TODO
+# Secure File Transfer - PyMongo TODO
 
-- [x] Step 1: Update requirements.txt to include gunicorn and eventlet
-- [x] Step 2: Create your_application.wsgi file
-- [x] Step 3: Provide run command
-- [x] Step 4: Mark complete and test instructions
+- [ ] Step 1: Add pymongo to requirements.txt
+- [ ] Step 2: Commit and push to GitHub
+- [ ] Step 3: Installation and test instructions
