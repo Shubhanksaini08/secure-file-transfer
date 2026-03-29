@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure File Transfer Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <h1>🔐 Secure File Transfer System</h1>
+
+    <!-- AUTH SECTION -->
+    <div class="auth-box">
+        <h2>Login / Register</h2>
+
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+
+        <button onclick="register()">Register</button>
+        <button onclick="login()">Login</button>
+
+        <p id="auth-status"></p>
+    </div>
+
+    <!-- FILE UPLOAD -->
+    <div class="upload-box">
+        <h2>Upload File</h2>
+        <input type="file" id="fileInput">
+        <button onclick="uploadFile()">Upload</button>
+        <div id="dropZone">Drop File Here</div>
+    </div>
+
+    <!-- FILE LIST -->
+    <div class="file-box">
+        <h2>Files</h2>
+        <ul id="fileList"></ul>
+    </div>
+
+    <!-- LOGS -->
+    <div class="log-box">
+        <h2>Activity Logs</h2>
+        <pre id="logs"></pre>
+    </div>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
